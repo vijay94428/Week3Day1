@@ -1,0 +1,48 @@
+package assignment4;
+
+public class Students {
+
+	
+	public void getStudentInfo()
+	
+	{
+		System.out.println("getStudentInfo");
+	}
+	
+	
+public void getStudentInfo(int ID)
+	
+	{
+		System.out.println("getStudentInfo using ID ");
+	}
+	
+	
+public void getStudentInfo(int ID, String Name )
+
+{
+	System.out.println("getStudentInfo using ID and Name  ");
+}
+
+
+public void getStudentInfo(String Email, String PhoneNumber )
+
+{
+	System.out.println("getStudentInfo using ID and PhoneNumber  ");
+}
+
+
+	
+	
+	public static void main(String[] args) {
+		
+		Students St = new Students();
+		
+		St.getStudentInfo();
+		St.getStudentInfo(15);
+		St.getStudentInfo(15, "Vijay");
+		St.getStudentInfo("vijay123@gmail.com", "9812345678");
+		
+
+	}
+
+}
